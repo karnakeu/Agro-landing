@@ -1,10 +1,11 @@
 import React from "react";
+import Footer from "./components/Homepage/Footer";
 import "./index.css";
 
 const App = () => {
   return (
     <div>
-      <h1 className="red font-covered">Hello world</h1>
+      <Footer />
     </div>
   );
 };
