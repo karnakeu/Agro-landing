@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./components/Homepage/Footer";
+import Hero from "../Homepage/Hero";
 import "./index.css";
 import Navbar from "./componets/Navbar";
 import About from "./About/About";
@@ -10,7 +11,8 @@ import Farmer from "./About/Farmer";
 const App = () => {
   return (
     <div>
-      <h1 className="red font-covered">Hello world</h1>
+      <Hero />
+      <Footer />
     </div>
   );
 };
