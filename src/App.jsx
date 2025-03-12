@@ -1,10 +1,11 @@
 import React from "react";
 import "./index.css";
+import Navbar from "./Navbar";
 
 const App = () => {
   return (
     <div>
-      <h1 className="red font-covered">Hello world</h1>
+      <Navbar />
     </div>
   );
 };
