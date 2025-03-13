@@ -7,6 +7,7 @@ import About from "./About/About";
 import Video from "./About/Video";
 import Review from "./About/Review";
 import Farmer from "./About/Farmer";
+import Shop from "./Shop/Shop";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Video />
         <Review />
         <Farmer />
+        <Shop />
         <Footer />
       </div>
     </div>
