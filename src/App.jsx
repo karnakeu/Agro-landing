@@ -13,6 +13,16 @@ const App = () => {
     <div>
       <Hero />
       <Footer />
+<<<<<<< HEAD
+=======
+      <Navbar />
+      <div className="mt-[460px]">
+        <About />
+        <Video />
+        <Review />
+        <Farmer />
+      </div>
+>>>>>>> 33467ca8fa3fa022e9e1138913ddb16da4132082
     </div>
   );
 };
