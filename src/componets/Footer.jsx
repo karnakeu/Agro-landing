@@ -1,14 +1,14 @@
 import React from "react";
-import Logo from "/src/assets/footer/1.svg";
-import Logo2 from "/src/assets/footer/2.svg";
-import Logo3 from "/src/assets/footer/3.svg";
-import Logo4 from "/src/assets/footer/4.svg";
-import Logo5 from "/src/assets/footer/5.svg";
-import Icon from "/src/assets/footer/6.svg";
-import Icon2 from "/src/assets/footer/7.svg";
-import Icon3 from "/src/assets/footer/8.svg";
-import Icon4 from "/src/assets/footer/9.svg";
-import Icon5 from "/src/assets/footer/10.svg";
+import Logo from "../../src/assets/footer/1.svg";
+import Logo2 from "../../src/assets/footer/2.svg";
+import Logo3 from "../../src/assets/footer/3.svg";
+import Logo4 from "../../src/assets/footer/4.svg";
+import Logo5 from "../../src/assets/footer/5.svg";
+import Icon from "../../src/assets/footer/6.svg";
+import Icon2 from "../../src/assets/footer/7.svg";
+import Icon3 from "../../src/assets/footer/8.svg";
+import Icon4 from "../../src/assets/footer/9.svg";
+import Icon5 from "../../src/assets/footer/10.svg";
 
 // Константы для повторяющихся данных
 const socialIcons = [

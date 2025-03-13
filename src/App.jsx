@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "./components/Homepage/Footer";
-import Hero from "../Homepage/Hero";
+import Footer from "./componets/Footer";
+import Hero from "./Homepage/Hero";
 import "./index.css";
 import Navbar from "./componets/Navbar";
 import About from "./About/About";
@@ -11,18 +11,15 @@ import Farmer from "./About/Farmer";
 const App = () => {
   return (
     <div>
-      <Hero />
-      <Footer />
-<<<<<<< HEAD
-=======
       <Navbar />
+      <Hero />
       <div className="mt-[460px]">
         <About />
         <Video />
         <Review />
         <Farmer />
+        <Footer />
       </div>
->>>>>>> 33467ca8fa3fa022e9e1138913ddb16da4132082
     </div>
   );
 };
