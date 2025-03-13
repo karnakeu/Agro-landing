@@ -1,13 +1,13 @@
 import React from "react";
-import logo from "../src/assets-amelie/logo.png";
-import section from "../src/assets-amelie/section.png";
-import cart from "../src/assets-amelie/cart.svg";
-import search from "../src/assets-amelie/search.svg";
-import social from "../src/assets-amelie/social.svg";
-import telefon from "../src/assets-amelie/telefon.svg";
-import geo from "../src/assets-amelie/geo.svg";
-import messenge from "../src/assets-amelie/messenge.svg";
-import frame from "../src/assets-amelie/frame.png";
+import logo from "../../src/assets-amelie/logo.png";
+import section from "../../src/assets-amelie/section.png";
+import cart from "../../src/assets-amelie/cart.svg";
+import search from "../../src/assets-amelie/search.svg";
+import social from "../../src/assets-amelie/social.svg";
+import telefon from "../../src/assets-amelie/telefon.svg";
+import geo from "../../src/assets-amelie/geo.svg";
+import messenge from "../../src/assets-amelie/messenge.svg";
+import frame from "../../src/assets-amelie/frame.png";
 
 
 const Navbar = () => {
