@@ -5,7 +5,9 @@
     --color-white: #ffffff;
     --color-red: #fa6650;
     --color-blue: #2f80ed;
-    --color-black: #242424;
+    --color-black-1: #1f1e17;
+    --color-black-2: #242424;
+    --color-black-3: #24231d;
     --color-green: #4baf47;
     --color-light-green: #c5ce38;
     --color-orange: #eec044;
@@ -16,6 +18,7 @@
     --grey-scale-5: #e0e0e0;
     --grey-scale-6: #ecedee;
     --grey-scale-7: #f2f2f2;
+    --grey-scale-8: #a5a49a;
   }
 }
 
@@ -33,8 +36,16 @@
     color: var(--color-blue);
   }
 
-  .black {
-    color: var(--color-black);
+  .black-1 {
+    color: var(--color-black-1);
+  }
+
+  .black-2 {
+    color: var(--color-black-2);
+  }
+
+  .black-3 {
+    color: var(--color-black-3);
   }
 
   .green {
@@ -77,6 +88,10 @@
     color: var(--grey-scale-7);
   }
 
+  .grey-scale-8 {
+    color: var(--grey-scale-8);
+  }
+
   /* для заднего фона */
   .bg-white {
     background-color: var(--color-white);
@@ -90,8 +105,16 @@
     background-color: var(--color-blue);
   }
 
-  .bg-black {
-    background-color: var(--color-black);
+  .bg-black-1 {
+    background-color: var(--color-black-1);
+  }
+
+  .bg-black-2 {
+    background-color: var(--color-black-2);
+  }
+
+  .bg-black-3 {
+    background-color: var(--color-black-3);
   }
 
   .bg-green {
@@ -132,6 +155,10 @@
 
   .bg-grey-scale-7 {
     background-color: var(--grey-scale-7);
+  }
+
+  .bg-grey-scale-8 {
+    background-color: var(--grey-scale-8);
   }
 }
 

@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Hero from "../Homepage/Hero";
 import "./index.css";
 import Navbar from "./componets/Navbar";
 import About from "./About/About";
@@ -9,6 +11,8 @@ import Farmer from "./About/Farmer";
 const App = () => {
   return (
     <div>
+      <Hero />
+      <Footer />
       <Navbar />
       <div className="mt-[460px]">
         <About />
