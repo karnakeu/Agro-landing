@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/Homepage/Footer";
 import "./index.css";
 import Navbar from "./componets/Navbar";
 import About from "./About/About";
@@ -9,13 +10,7 @@ import Farmer from "./About/Farmer";
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <div className="mt-[460px]">
-        <About />
-        <Video />
-        <Review />
-        <Farmer />
-      </div>
+      <h1 className="red font-covered">Hello world</h1>
     </div>
   );
 };
