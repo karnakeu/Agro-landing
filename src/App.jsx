@@ -9,12 +9,13 @@ import Frame from "./Service/Frame";
 import Future from "./Service/Future";
 import Garden from "./Service/Garden";
 import Fon from "./Service/Fon";
+import Projects from "./Projects/Projects";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="mt-[460px]">
+      {/* <div className="mt-[460px]">
         <About />
         <Video />
         <Review />
@@ -23,7 +24,8 @@ const App = () => {
       <Frame />
       <Future />
       <Garden />
-      <Fon />
+      <Fon /> */}
+      <Projects />
     </div>
   );
 };
