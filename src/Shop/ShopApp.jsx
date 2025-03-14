@@ -58,7 +58,7 @@ const products = [
   },
 ];
 
-const Shop = () => {
+const ShopApp = () => {
   return (
     <div className={styles.shopContainer}>
       <div className={styles.shopContent}>
@@ -96,4 +96,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default ShopApp;

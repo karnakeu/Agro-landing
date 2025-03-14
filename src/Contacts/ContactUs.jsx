@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contact = () => {
+const ContactUs = () => {
   return (
     <div className="bg-white">
       {/* Заголовок */}
@@ -16,7 +16,10 @@ const Contact = () => {
       <div className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-green-500 text-white p-6 rounded-lg shadow-md">
           <h2 className="text-xl font-semibold">About</h2>
-          <p>Lorem ipsum is simply free text used by copytypinh refreshing. Neque porro est qui.</p>
+          <p>
+            Lorem ipsum is simply free text used by copytypinh refreshing. Neque
+            porro est qui.
+          </p>
         </div>
         <div className="bg-yellow-500 text-white p-6 rounded-lg shadow-md">
           <h2 className="text-xl font-semibold">Contact</h2>
@@ -26,7 +29,9 @@ const Contact = () => {
         </div>
         <div className="bg-yellow-400 text-white p-6 rounded-lg shadow-md">
           <h2 className="text-xl font-semibold">Address</h2>
-          <p>66 Broklun Road Golden Street, New Your United States of America</p>
+          <p>
+            66 Broklun Road Golden Street, New Your United States of America
+          </p>
         </div>
       </div>
 
@@ -43,10 +48,21 @@ const Contact = () => {
           <h2 className="text-xl font-bold">Write a Message</h2>
           <form className="mt-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input type="text" placeholder="Name" className="w-full p-3 border rounded-md" />
-              <input type="email" placeholder="Email Address" className="w-full p-3 border rounded-md" />
+              <input
+                type="text"
+                placeholder="Name"
+                className="w-full p-3 border rounded-md"
+              />
+              <input
+                type="email"
+                placeholder="Email Address"
+                className="w-full p-3 border rounded-md"
+              />
             </div>
-            <textarea placeholder="Write a Message" className="w-full mt-4 p-3 border rounded-md h-32"></textarea>
+            <textarea
+              placeholder="Write a Message"
+              className="w-full mt-4 p-3 border rounded-md h-32"
+            ></textarea>
             <button className="mt-4 bg-green-500 text-white px-6 py-3 rounded-md shadow-md">
               Send a Message
             </button>
@@ -57,4 +73,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactUs;
