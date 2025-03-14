@@ -13,10 +13,15 @@ import Explore from "./Homepage/Explore";
 import Agrios from "./Homepage/Agrios";
 import Market from "./Homepage/Market";
 import NewsArticles from "./Homepage/NewsArticles";
+import Frame from "./Service/Frame";
+import Future from "./Service/Future";
+import Garden from "./Service/Garden";
+import Fon from "./Service/Fon";
 
 const App = () => {
   return (
     <div>
+      <Navbar />
       <Hero />
       <OrganicProduct />
       <Offer />
@@ -25,13 +30,20 @@ const App = () => {
       <Market />
       <NewsArticles />
       <Footer />
-      <Navbar />
+
       <div className="mt-[460px]">
         <About />
         <Video />
         <Review />
         <Farmer />
+
+        <Footer />
       </div>
+      <Frame />
+      <Future />
+      <Garden />
+      <Fon />
+
     </div>
   );
 };
