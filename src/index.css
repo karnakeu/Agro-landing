@@ -19,6 +19,7 @@
     --grey-scale-6: #ecedee;
     --grey-scale-7: #f2f2f2;
     --grey-scale-8: #a5a49a;
+    --grey-scale-9: #f8f7f0;
   }
 }
 
@@ -92,6 +93,10 @@
     color: var(--grey-scale-8);
   }
 
+  .grey-scale-9 {
+    color: var(--grey-scale-9);
+  }
+
   /* для заднего фона */
   .bg-white {
     background-color: var(--color-white);
@@ -159,6 +164,10 @@
 
   .bg-grey-scale-8 {
     background-color: var(--grey-scale-8);
+  }
+
+  .bg-grey-scale-9 {
+    background-color: var(--grey-scale-9);
   }
 }
 

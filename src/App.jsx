@@ -7,6 +7,12 @@ import About from "./About/About";
 import Video from "./About/Video";
 import Review from "./About/Review";
 import Farmer from "./About/Farmer";
+import OrganicProduct from "./Homepage/OrganicProduct";
+import Offer from "./Homepage/Offer";
+import Explore from "./Homepage/Explore";
+import Agrios from "./Homepage/Agrios";
+import Market from "./Homepage/Market";
+import NewsArticles from "./Homepage/NewsArticles";
 import Frame from "./Service/Frame";
 import Future from "./Service/Future";
 import Garden from "./Service/Garden";
@@ -17,17 +23,27 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <OrganicProduct />
+      <Offer />
+      <Explore />
+      <Agrios />
+      <Market />
+      <NewsArticles />
+      <Footer />
+
       <div className="mt-[460px]">
         <About />
         <Video />
         <Review />
         <Farmer />
+
         <Footer />
       </div>
       <Frame />
       <Future />
       <Garden />
       <Fon />
+
     </div>
   );
 };
