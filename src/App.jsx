@@ -7,8 +7,6 @@ import About from "./About/About";
 import Video from "./About/Video";
 import Review from "./About/Review";
 import Farmer from "./About/Farmer";
-import Contact from "./Contacts/Contact";
-import Shop from "./Shop/Shop";
 import OrganicProduct from "./Homepage/OrganicProduct";
 import Offer from "./Homepage/Offer";
 import Explore from "./Homepage/Explore";
@@ -19,6 +17,7 @@ import Frame from "./Service/Frame";
 import Future from "./Service/Future";
 import Garden from "./Service/Garden";
 import Fon from "./Service/Fon";
+import Grid from "./NewsGrid/Grid";
 import Projects from "./Projects/Projects";
 
 const App = () => {
@@ -39,11 +38,8 @@ const App = () => {
         <Video />
         <Review />
         <Farmer />
-        <Navbar />
-        <Shop />
-        <Contact />
+        <Grid />
         <Footer />
-        <Contact />
       </div>
       <Frame />
       <Future />
