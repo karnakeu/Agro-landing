@@ -1,0 +1,50 @@
+.vertical-centered-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -20px;
+}
+.vertical-centered-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.horizontal-flex-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header-title {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 600 14px Manrope, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+.breadcrumb-separator-text-style {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 600 14px Manrope, sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+.hero-title {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 800 50px/60px Manrope, sans-serif;
+  color: white;
+}

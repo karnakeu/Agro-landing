@@ -1,0 +1,40 @@
+.full-width-container {
+  box-sizing: border-box;
+  width: 100%;
+}
+.contact-title {
+  padding: 0;
+  margin: 0;
+  font: 700 20px Manrope, sans-serif;
+  color: white;
+}
+.contact-info-section2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  margin-top: 9.5px;
+}
+.green-border-header {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 45px;
+  height: 4px;
+  border-top: 4px solid #4baf47;
+  border-radius: 2px;
+}
+.image-container {
+  flex: 0 0 auto;
+  padding-right: 24px;
+  padding-left: 52px;
+  margin-top: -4px;
+}
+.border-box-image {
+  box-sizing: border-box;
+  display: block;
+  width: 4px;
+  max-width: initial;
+  height: 4px;
+}

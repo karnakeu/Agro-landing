@@ -1,0 +1,118 @@
+.contact-info-container5 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 7.5px;
+  padding-bottom: 80px;
+  padding-left: 7.5px;
+}
+.green-bar-separator {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  align-self: flex-start;
+  width: 635px;
+  height: 4px;
+  background: #4baf47;
+}
+.header-divider-bar {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 635px;
+  height: 4px;
+  margin-top: -4px;
+  background: #c5ce38;
+}
+.golden-highlight-bar {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  align-self: flex-end;
+  width: 635px;
+  height: 4px;
+  margin-top: -4px;
+  background: #eec044;
+}
+.contact-info-section3 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 1170px;
+  margin-top: 21px;
+}
+.contact-info-card {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 15.81%;
+}
+.image-container1 {
+  box-sizing: border-box;
+  display: block;
+  width: 170px;
+  max-width: initial;
+  height: 52px;
+  border: none;
+  object-fit: cover;
+}
+.contact-info-container2 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 29.19%;
+  height: 74px;
+  padding-left: 100px;
+}
+.card-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding-right: 13px;
+  padding-left: 13px;
+  background: #f8f7f0;
+  border-radius: 20px;
+}
+.svg-container {
+  display: flex;
+  flex: 0 0 auto;
+  width: 14px;
+  height: 14px;
+  color: #1f1e17;
+}
+.contact-info-section4 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 55%;
+}
+.contact-info-container4 {
+  flex: 0 0 auto;
+  padding-top: 17px;
+  margin-right: 19px;
+}
+.contact-info-heading {
+  padding: 0;
+  margin: 0;
+  font: 600 12px Manrope, sans-serif;
+  color: #878680;
+}
+.contact-info-text-style {
+  padding: 0;
+  margin: 0;
+  font: 700 14px Manrope, sans-serif;
+  color: #1f1e17;
+}

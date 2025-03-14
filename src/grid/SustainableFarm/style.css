@@ -1,0 +1,132 @@
+.vertical-flex-container2 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vertical-flex-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  min-width: 1170px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.eco-product-grid {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.vertical-flex-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+  max-width: initial;
+  height: 570px;
+  padding-top: 300px;
+  background: url("/assets/image_d1152970.png") 50% / cover no-repeat;
+  border: none;
+}
+.gradient-box {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding: 151px 31px 53px 39px;
+  background: linear-gradient(0deg, rgba(31, 30, 23, 1) 0%, rgba(31, 30, 23, 0) 100%);
+}
+.hiero-text-block {
+  padding: 0;
+  margin: 0;
+  font: 800 30px/36px Manrope, sans-serif;
+  color: white;
+  text-align: left;
+}
+.eco-farming-card {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+  max-width: initial;
+  height: 570px;
+  padding-top: 300px;
+  background: url("/assets/image_b9a50f00.png") 50% / cover no-repeat;
+  border: none;
+}
+.eco-farming-section {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+  max-width: initial;
+  height: 570px;
+  padding-top: 300px;
+  background: url("/assets/image_942354cc.png") 50% / cover no-repeat;
+  border: none;
+}
+.fresh-products-section {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.organic-solutions-section {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+  max-width: initial;
+  height: 570px;
+  padding-top: 300px;
+  background: url("/assets/image_3c356bc3.png") 50% / cover no-repeat;
+  border: none;
+}
+.organic-product-card {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding: 151px 31px 60px 39px;
+  background: linear-gradient(0deg, rgba(31, 30, 23, 1) 0%, rgba(31, 30, 23, 0) 100%);
+}
+.organic-fresh-food-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+  max-width: initial;
+  height: 570px;
+  padding-top: 300px;
+  background: url("/assets/image_91538e7.png") 50% / cover no-repeat;
+  border: none;
+}
+.organic-solutions-section1 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+  max-width: initial;
+  height: 570px;
+  padding-top: 300px;
+  background: url("/assets/image_8db353e.png") 50% / cover no-repeat;
+  border: none;
+}

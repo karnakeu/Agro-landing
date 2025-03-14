@@ -1,0 +1,23 @@
+.flex-row-with-icon {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg-container6 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+  color: #a5a49a;
+}
+.section-title-text-styler {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-left: 12.5px;
+  font: 500 15px Manrope, sans-serif;
+  color: #a5a49a;
+  white-space: pre-wrap;
+}
