@@ -19,6 +19,7 @@ import Frame from "./Service/Frame";
 import Future from "./Service/Future";
 import Garden from "./Service/Garden";
 import Fon from "./Service/Fon";
+import Projects from "./Projects/Projects";
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
       <Future />
       <Garden />
       <Fon />
+      <Projects />
     </div>
   );
 };
