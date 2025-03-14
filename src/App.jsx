@@ -7,6 +7,10 @@ import About from "./About/About";
 import Video from "./About/Video";
 import Review from "./About/Review";
 import Farmer from "./About/Farmer";
+<<<<<<< HEAD
+=======
+import Contact from "./Contacts/Contact";
+>>>>>>> 5f724a223c427fbb730e63b1b94bf606ac874394
 import Shop from "./Shop/Shop";
 import OrganicProduct from "./Homepage/OrganicProduct";
 import Contact from "./Contacts/Contact";
@@ -42,6 +46,7 @@ const App = () => {
         <Shop />
         <Contact />
         <Footer />
+        <Contact />
       </div>
       <Frame />
       <Future />
