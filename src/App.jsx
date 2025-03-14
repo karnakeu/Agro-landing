@@ -25,7 +25,6 @@ const App = () => {
       <Market />
       <NewsArticles />
       <Footer />
-      =========
       <Navbar />
       <div className="mt-[460px]">
         <About />
