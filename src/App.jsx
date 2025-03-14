@@ -7,9 +7,8 @@ import About from "./About/About";
 import Video from "./About/Video";
 import Review from "./About/Review";
 import Farmer from "./About/Farmer";
-<<<<<<< HEAD
+import Contact from "./Contacts/Contact";
 import Shop from "./Shop/Shop";
-=======
 import OrganicProduct from "./Homepage/OrganicProduct";
 import Offer from "./Homepage/Offer";
 import Explore from "./Homepage/Explore";
@@ -20,7 +19,6 @@ import Frame from "./Service/Frame";
 import Future from "./Service/Future";
 import Garden from "./Service/Garden";
 import Fon from "./Service/Fon";
->>>>>>> 955f270cbe5af7bec0aaab85fce7d8d80f52ebc3
 
 const App = () => {
   return (
@@ -40,12 +38,9 @@ const App = () => {
         <Video />
         <Review />
         <Farmer />
-<<<<<<< HEAD
         <Shop />
-=======
-
->>>>>>> 955f270cbe5af7bec0aaab85fce7d8d80f52ebc3
         <Footer />
+        <Contact />
       </div>
       <Frame />
       <Future />
