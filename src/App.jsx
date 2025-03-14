@@ -17,7 +17,6 @@ import NewsArticles from "./Homepage/NewsArticles";
 const App = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <OrganicProduct />
       <Offer />
@@ -26,6 +25,14 @@ const App = () => {
       <Market />
       <NewsArticles />
       <Footer />
+      =========
+      <Navbar />
+      <div className="mt-[460px]">
+        <About />
+        <Video />
+        <Review />
+        <Farmer />
+      </div>
     </div>
   );
 };
