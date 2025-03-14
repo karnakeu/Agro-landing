@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      {/* <div className="mt-[460px]">
+      <div className="mt-[460px]">
         <About />
         <Video />
         <Review />
@@ -24,7 +24,7 @@ const App = () => {
       <Frame />
       <Future />
       <Garden />
-      <Fon /> */}
+      <Fon />
       <Projects />
     </div>
   );
