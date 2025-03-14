@@ -1,12 +1,12 @@
 import React from "react";
 import Projects from "../Projects/Projects";
-import Footer from "../componets/Footer";
+
 
 const ProjectsPage = () => {
   return (
-    <div>
+    <div className="mb-[200px]">
       <Projects />
-      <Footer />
+      
     </div>
   );
 };

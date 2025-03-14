@@ -1,12 +1,12 @@
 import React from "react";
 import Grid from "../NewsGrid/Grid";
-import Footer from "../componets/Footer";
+
 
 const News = () => {
   return (
-    <div>
+    <div className="mt-[400px] mb-[100px]">
       <Grid />
-      <Footer />
+      
     </div>
   );
 };

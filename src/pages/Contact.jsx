@@ -1,13 +1,13 @@
 import React from "react";
 
 import ContactUs from "../Contacts/ContactUs";
-import Footer from "../componets/Footer";
+
 
 const Contact = () => {
   return (
-    <div>
+    <div className="mt-[400px] mb-[100px]">
       <ContactUs />
-      <Footer />
+      
     </div>
   );
 };

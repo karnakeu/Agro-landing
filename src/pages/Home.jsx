@@ -6,7 +6,7 @@ import Explore from "../Homepage/Explore";
 import Agrios from "../Homepage/Agrios";
 import Market from "../Homepage/Market";
 import NewsArticles from "../Homepage/NewsArticles";
-import Footer from "../componets/Footer";
+
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
       <Agrios />
       <Market />
       <NewsArticles />
-      <Footer />
+      
     </div>
   );
 };
