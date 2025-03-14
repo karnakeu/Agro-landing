@@ -5,7 +5,7 @@ const Fon = () => {
     return (
         <div className="w-full h-[273px] mt-[150px]" style={{ backgroundImage: `url(${fongreen})` }}>
             <div className="flex grid-cols-1">
-                <div className="mt-[100px] ml-[40px]">
+                <div className="mt-[100px] ml-[300px]">
                     <p className="font-covered orange text-2xl">Agriculture Market Leaders</p>
                     <h1 className=" font-manrope-extrabold text-4xl white">We`re popular in agriculture market globally</h1>
                 </div>

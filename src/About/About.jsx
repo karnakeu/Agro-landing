@@ -5,7 +5,7 @@ import picture from "../../src/assets-amelie/picture.png";
 
 const About = () => {
     return (
-        <div className="flex grid-cols-1 w-[1200px] h-[610px] items-center mx-[160px] mt-[60px]">
+        <div className="flex grid-cols-1 items-center h-[610px] ml-[400px] mx-[160px] mt-[60px]">
             <div>
                 <img 
                     src={picture} 

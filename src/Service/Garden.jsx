@@ -8,7 +8,7 @@ import circle1 from "../../src/assets-amelie/circle1.png";
 
 const Garden = () => {
     return (
-        <div className="flex grid-cols-1 w-[1200px] h-[630px] items-center mx-[100px] mt-[80px]">
+        <div className="flex grid-cols-1 ml-[400px] h-[630px] items-center mx-[100px] mt-[80px]">
                 <div className="relative w-[500px] h-[595px]">
                     
                     <img 

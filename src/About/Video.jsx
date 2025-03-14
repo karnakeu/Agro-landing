@@ -10,7 +10,7 @@ const Video = () => {
                 <h1 className="font-manrope-extrabold text-5xl white w-[740px] h-[144px] text-center mt-[50px]">ECO-Friendly Products can be Made from Scratch</h1>
             </div>
             <div className="w-full h-[184px] bg-black ">
-                <div className=" w-[1000px] h-[37px] flex justify-between items-center ml-[200px]">
+                <div className=" w-[1000px] h-[37px] flex justify-between items-center ml-[500px]">
                     <p className="font-manrope-medium text-lg grey-scale-3 mt-[140px]">Agriculture Products</p>
                     <p className="font-manrope-medium text-lg grey-scale-3 mt-[140px]">Projects Completed</p>
                     <p className="font-manrope-medium text-lg grey-scale-3 mt-[140px]">Satisfied Clients</p>

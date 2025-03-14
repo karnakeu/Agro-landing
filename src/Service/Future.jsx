@@ -26,11 +26,11 @@ const Future = () => {
                 <div className="absolute inset-0 bg-black opacity-40"></div>
 
                 <div className="relative z-10  flex justify-between">
-                    <h1 className="text-white text-7xl text-left font-manrope-extrabold leading-tight px-6  w-[600px] h-[336px] ">
+                    <h1 className="text-white text-7xl text-left font-manrope-extrabold leading-tight px-6 ml-[200px] w-[600px] h-[336px] ">
                         Agriculture Matters to the Future of Development
                     </h1>
                     
-                    <div className=" absolute flex mt-[130px]  cursor-pointer ">
+                    <div className=" absolute flex mt-[130px] ml-[200px]  cursor-pointer ">
                         <img src={video} alt="Play Video" className="w-[100px] h-[100px] cursor-pointer ml-[1200px]" />
                     </div>
                     
