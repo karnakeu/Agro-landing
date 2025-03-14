@@ -1,0 +1,9 @@
+.vertical-section-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 18.5px;
+}

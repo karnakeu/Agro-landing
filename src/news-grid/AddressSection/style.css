@@ -1,0 +1,27 @@
+.address-block1 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 15px;
+  padding-bottom: 19px;
+  padding-left: 74px;
+  border-left: 1px solid #e4e2d7;
+}
+.address-label {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 600 12px Manrope, sans-serif;
+  color: #878680;
+}
+.email-contact-info {
+  flex: 0 0 auto;
+  align-self: flex-end;
+  padding: 0;
+  margin: 0;
+  font: 700 14px Manrope, sans-serif;
+  color: #1f1e17;
+}

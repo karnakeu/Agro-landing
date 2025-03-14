@@ -1,0 +1,129 @@
+.vertical-nav-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5px;
+  margin-top: -59px;
+  margin-right: 7.5px;
+  margin-left: 7.5px;
+}
+.header-navigation-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 1177px;
+  height: 79px;
+  padding-top: 11.5px;
+}
+.navigation-menu-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 59px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex-row-with-icon {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header-text-bold {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 600 16px Manrope, sans-serif;
+  color: #878680;
+}
+.svg-container1 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  margin-left: 5.5px;
+  color: #878680;
+}
+.news-heading {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 800 16px Manrope, sans-serif;
+  color: #1f1e17;
+}
+.svg-container2 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  margin-left: 5.5px;
+  color: #1f1e17;
+}
+.header-navigation-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vertical-centered-box {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 36px;
+  padding-left: 31px;
+  border-left: 1px solid #e4e2d7;
+}
+.svg-container3 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  color: #1f1e17;
+}
+.numeric-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+.header-section {
+  flex: 0 0 auto;
+  padding-top: 4px;
+}
+.svg-container4 {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  color: #1f1e17;
+}
+.numeric-label {
+  flex: 0 0 auto;
+  padding-bottom: 12px;
+  margin-left: -10px;
+}
+.highlighted-badge {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  padding: 0 3.25px;
+  font: 600 11px Manrope, sans-serif;
+  color: white;
+  background: #4baf47;
+  border: none;
+  border-radius: 8px;
+}

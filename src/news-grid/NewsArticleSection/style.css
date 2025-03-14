@@ -1,0 +1,74 @@
+.news-card-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 34.16%;
+  padding: 3px 15px 11.5px;
+}
+.news-section-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding-bottom: 212px;
+}
+.main-title-style {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 700 20px Manrope, sans-serif;
+  color: white;
+}
+.news-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 12.5px;
+}
+.green-bar-separator1 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  height: 4px;
+  background: #4baf47;
+}
+.image-container {
+  flex: 0 0 auto;
+  align-self: flex-end;
+  margin-top: -4px;
+}
+.border-box-image {
+  box-sizing: border-box;
+  display: block;
+  width: 4px;
+  max-width: initial;
+  height: 4px;
+}
+.news-article-card {
+  flex: 0 0 auto;
+  padding-top: 75px;
+  margin-left: 45px;
+}
+.article-snippet {
+  box-sizing: border-box;
+  width: 100%;
+}
+.futuristic-heading {
+  padding: 0;
+  margin: 0;
+  font: 700 16px/26px Manrope, sans-serif;
+  color: white;
+  text-align: left;
+}
+.golden-text {
+  padding: 0;
+  margin: 0;
+  margin-top: 7.75px;
+  font: 400 15px Manrope, sans-serif;
+  color: #eec044;
+}

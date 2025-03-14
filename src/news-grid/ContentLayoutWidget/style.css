@@ -1,0 +1,70 @@
+.dark-theme-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 2px;
+  background: #24231d;
+}
+.main-content-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-width: 1171px;
+  padding-top: 120px;
+  padding-bottom: 119px;
+}
+.contact-info-section5 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 24.42%;
+  padding-right: 15px;
+  padding-bottom: 5.5px;
+  padding-left: 15px;
+}
+.email-input-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
+  margin-top: 30.5px;
+  margin-right: -15px;
+  background: white;
+  border: 1px solid #f8f7f0;
+  border-radius: 10px;
+}
+.address-label {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 600 12px Manrope, sans-serif;
+  color: #878680;
+}
+.email-input-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding-right: 19px;
+  padding-left: 17px;
+  background: #4baf47;
+  border-radius: 0px 10px 10px 0px;
+}
+.svg-container6 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 14px;
+  height: 14px;
+  color: #ffffff;
+}
