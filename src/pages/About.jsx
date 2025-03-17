@@ -4,7 +4,6 @@ import Video from "../About/Video";
 import Review from "../About/Review";
 import Farmer from "../About/Farmer";
 
-
 const AboutPage = () => {
   return (
     <div className="mt-[400px]">
@@ -12,7 +11,6 @@ const AboutPage = () => {
       <Video />
       <Review />
       <Farmer />
-      
     </div>
   );
 };

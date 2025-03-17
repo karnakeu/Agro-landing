@@ -15,43 +15,29 @@ const Explore = () => {
           Explore Projects
         </div>
       </div>
-      <div className="flex flex-row justify-center gap-[10px] mt-[50px]">
-        <div
-          className="w-[360px] h-[560px] rounded-[10px] relative shadow-lg"
-          style={{ backgroundImage: `url(${Image1})` }}
-        >
-          <div className="white font-manrope-extrabold text-[30px] mt-[430px] ml-[40px]">
-            Easy <br />
-            Harvesting
+      <div className="flex justify-center gap-4 mt-12 px-4">
+        {[Image1, Image2, Image3, Image4].map((image, index) => (
+          <div
+            key={index}
+            className="rounded-[10px] shadow-lg bg-cover bg-center flex items-end p-6 transition-all duration-300"
+            style={{
+              backgroundImage: `url(${image})`,
+              width: "22vw",
+              height: "35vw",
+              minWidth: "180px",
+              minHeight: "280px",
+              maxWidth: "360px",
+              maxHeight: "560px",
+            }}
+          >
+            <div className="text-white font-manrope-extrabold text-[24px] md:text-[28px] lg:text-[30px]">
+              {index === 0 && "Easy Harvesting"}
+              {index === 1 && "Agriculture Farming"}
+              {index === 2 && "Ecological Farming"}
+              {index === 3 && "Organic Solutions"}
+            </div>
           </div>
-        </div>
-        <div
-          className="w-[360px] h-[560px] rounded-[10px] relative shadow-lg"
-          style={{ backgroundImage: `url(${Image2})` }}
-        >
-          <div className="white font-manrope-extrabold text-[30px] mt-[430px] ml-[40px]">
-            Agriculture <br />
-            Farming
-          </div>
-        </div>
-        <div
-          className="w-[360px] h-[560px] rounded-[10px] relative shadow-lg"
-          style={{ backgroundImage: `url(${Image3})` }}
-        >
-          <div className="white font-manrope-extrabold text-[30px] mt-[430px] ml-[40px]">
-            Ecological <br />
-            Farming
-          </div>
-        </div>
-        <div
-          className="w-[360px] h-[560px] rounded-[10px] relative shadow-lg"
-          style={{ backgroundImage: `url(${Image4})` }}
-        >
-          <div className="white font-manrope-extrabold text-[30px] mt-[430px] ml-[40px]">
-            Organic <br />
-            Solutions
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );

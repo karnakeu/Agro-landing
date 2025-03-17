@@ -113,7 +113,7 @@ const Offer = () => {
         </div>
       </div>
       <div
-        className="mx-[7px] h-[690px]"
+        className="w-auto lg:w-min-[1400px] h-[690px]"
         style={{ backgroundImage: `url(${Image9})` }}
       >
         {" "}
